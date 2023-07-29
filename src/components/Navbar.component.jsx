@@ -1,7 +1,7 @@
 import { PhoneIcon } from "@chakra-ui/icons";
 import { Box, Button, Flex, Link } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { menuItemHover } from "../styles/navbar.style";
+import { menuItemHover } from "../styles/styles";
 
 const NavbarComponent = () => {
   return (
