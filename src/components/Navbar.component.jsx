@@ -1,5 +1,5 @@
 import { PhoneIcon } from "@chakra-ui/icons";
-import { Box, Button, Flex, Link, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Link } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { menuItemHover } from "../styles/navbar.style";
 
@@ -7,9 +7,9 @@ const NavbarComponent = () => {
   return (
     <Flex justify="space-between" bg="white" alignItems="center">
       <Box p="4" color="blue.400">
-        <Text fontSize="xl" fontWeight="bold">
+        <Link fontSize="xl" fontWeight="bold" href="#home" _hover={{}}>
           Alandur Vel Travels
-        </Text>
+        </Link>
       </Box>
       <Box p="4">
         <Flex justify="center" gap="8">

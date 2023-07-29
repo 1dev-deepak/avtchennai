@@ -10,13 +10,13 @@ import FooterComponent from "./components/Footer.component";
 
 const App = () => {
   return (
-    <VStack maxWidth="full">
-      <Container maxW="full" minH="100vh" bg="gray.100" color="#262626" p="0">
+    <VStack maxWidth="100vw">
+      <Container maxW="100vw" minH="100vh" bg="gray.100" color="#262626" p="0">
         <NavbarComponent />
         <HomeComponent />
       </Container>
       <Container
-        maxW="full"
+        maxW="100vw"
         minH="100vh"
         bg="green.400"
         color="#262626"
@@ -26,7 +26,7 @@ const App = () => {
         <ServicesComponent />
       </Container>
       <Container
-        maxW="full"
+        maxW="100vw"
         minH="100vh"
         bg="white.400"
         color="#262626"
@@ -36,7 +36,7 @@ const App = () => {
         <PackagaesComponent />
       </Container>
       <Container
-        maxW="full"
+        maxW="100vw"
         minH="100vh"
         bg="green.400"
         color="#262626"
@@ -46,7 +46,7 @@ const App = () => {
         <GalleryComponent />
       </Container>
       <Container
-        maxW="full"
+        maxW="100vw"
         minH="100vh"
         bg="white.400"
         color="#262626"
